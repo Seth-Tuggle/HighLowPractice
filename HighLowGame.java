@@ -8,7 +8,7 @@ public class HighLowGame {
         int num = getNum(random);
         int score = 0;
         try (Scanner scnr = new Scanner(System.in)) {
-            System.out.println("Hello! Welcome to the high-Low Game, in this game you will guess if a random number will be higher or lower than the previous.");
+            System.out.println("Hello! Welcome to the high-Low Game, in this game you will guess if a random number between 1 and 100 will be higher or lower than the previous.");
             System.out.println("If you want to guess - Lower - type 1, and if you want to guess - Higher - Type 2, and if you want to quit, type 3.");
             
             while (true) {
