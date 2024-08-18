@@ -13,7 +13,7 @@ public class HighLowGame {
             
             while (true) {
                 int newNum = getNum(random);
-                System.out.println("Number - " + num);
+                System.out.println("Higher or lower than? - " + num);
                 int guess = scnr.nextInt();
                 
                 if (guess == 1) {
